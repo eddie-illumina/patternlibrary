@@ -65,6 +65,18 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/patter-library-playground.sublime-project": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/patter-library-playground.sublime-project",
+		"oF": 0
+		},
+	"\/patter-library-playground.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/patter-library-playground.sublime-workspace",
+		"oF": 0
+		},
 	"\/scss\/_bootstrap.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -988,6 +1000,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/custom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/custom.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/illumina\/base\/banners.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1401,19 +1426,6 @@
 		"oA": 0,
 		"oAP": "\/css\/main.css",
 		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/social.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/social.css",
-		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
