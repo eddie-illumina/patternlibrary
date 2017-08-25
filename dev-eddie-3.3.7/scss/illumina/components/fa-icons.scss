@@ -1,0 +1,39 @@
+/*:::::::::: Font Awesome Icon Set ::::::::::*/
+.icon-fa:after, .icon-fa:before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-family: FontAwesome;
+	/*line-height: 0;*/ /*removed for Safari fix - Burt 6/16/16*/
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+/*:::::::::: Font Awesome Icon Set ::::::::::*/
+
+
+/*:::::::::: Font Awesome Icon Name ::::::::::*/
+.icon-cta {
+	font-family: "HelveticaNeueW01-65Medi", sans-serif;
+}
+.icon-cta:after {
+	content: "\f054";
+	margin-left: 6px;
+}
+.icon-play:after {
+	content: "\f144";
+}
+.icon-download:after {
+	content: "\f019";
+}
+
+.icon-zoom:after {
+	content: "\f00e";
+}
+
+.icon-shadow {
+    text-shadow: 0 2px 20px rgba(0, 0, 0, .4);
+}
+/*:::::::::: Font Awesome Icon Name ::::::::::*/
+

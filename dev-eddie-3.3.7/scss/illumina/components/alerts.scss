@@ -1,0 +1,54 @@
+/*:::::::::: Alerts ::::::::::*/
+.alert .fa {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+    font-size: 30px;
+    color: #81af45;
+}
+
+.alert .alert-content {
+    display: table-cell;
+}
+
+.alert.alert-info {
+    color: #666;
+    border: 1px solid #81af45;
+    background: #fff;
+    border-left: 10px solid #81af45;
+}
+
+/*
+* Styles for MiSeq 500 discontinuation alert. We can explore this solution in Pattern Library to evaluate up-leveling to global stylezzz
+*/
+
+@media (min-width: 768px) {
+  .alert-container-absolute {
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .alert-container-absolute {
+    background: url('/content/dam/illumina-marketing/images/banners/hero-default-blue-bkg.jpg') no-repeat !important;
+  	min-height: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert-container-absolute .alert {
+      box-shadow: 0px 3px 11px 4px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media (min-width: 768px) {
+  .systems-banner-with-alert .banner-takeover {
+    min-height: 760px;
+  }
+}
+
+/*:::::::::: Alerts ::::::::::*/

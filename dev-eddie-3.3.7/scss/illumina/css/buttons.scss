@@ -1,0 +1,374 @@
+/*:::::::::: Base Bootstrap class names ::::::::::*/
+.btn {
+	border-radius: 5px;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	white-space: normal;
+}
+
+
+/* Default is the white button */
+.btn-default, .btn-primary {
+	text-align: left;
+	letter-spacing: 0.3px;
+}
+.btn-default {
+	color:#666;
+}
+
+/* Primary is the blue button */
+.btn-primary {
+	/*background-color: #7ca8d4;*/ /*Legacy*/
+	background-color: #3e7ebe;
+	border-color: transparent;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	background-color: #328ed1;
+	border-color: transparent;
+}
+
+.btn-link, .btn-link:hover {
+	color: #328ed1;
+	text-decoration: none;
+}
+
+/* Outline button (transparent background and blue border/text, inverse hover) */
+.btn-primary-outline {
+	color: #3e7ebe;
+	background-color: transparent;
+	background-image: none;
+	border-color: #3e7ebe;
+}
+ 
+ .btn-primary-outline:hover {
+	background-color: #3e7ebe;
+	color: #fff;
+}
+
+/*:::::::::: Base Bootstrap class names ::::::::::*/
+
+
+
+
+/*:::::::::: Reverse Buttons and Links ::::::::::*/
+.btn-blue-txt, .btn-blue-txt:hover, .btn-blue-txt:active, .btn-blue-txt:focus {
+    color: #328ed1;
+}
+
+.btn-teal-txt, .btn-teal-txt:hover, .btn-teal-txt:active, .btn-teal-txt:focus {
+    color: #24bec5;
+}
+
+.btn-raspberry-txt, .btn-raspberry-txt:hover, .btn-raspberry-txt:active, .btn-raspberry-txt:focus {
+    color: #c5246e;
+}
+
+.btn-pumpkin-txt, .btn-pumpkin-txt:hover, .btn-pumpkin-txt:active, .btn-pumpkin-txt:focus {
+    color: #ffb441;
+}
+
+.btn-green-txt, .btn-green-txt:hover, .btn-green-txt:active, .btn-green-txt:focus {
+    color: #81af45;
+}
+
+.btn-purple-txt, .btn-purple-txt:hover, .btn-purple-txt:active, .btn-purple-txt:focus {
+    color: #885087;
+}
+
+.cta-white-txt, .cta-white-txt:hover, .cta-white-txt:active, .cta-white-txt:focus {
+    color: #fff;
+}
+
+.btn-reverse {
+    background-color: #fff;
+}
+
+.btn-reverse:hover, .btn-reverse:active, .btn-reverse:focus {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+/*:::::::::: Reverse Buttons and Links ::::::::::*/
+
+
+
+
+/*:::::::::: Custom class names not associated with Bootstrap ::::::::::*/
+/* Brand Color Buttons */
+.btn-pumpkin {
+	background-color: #ffb441;
+	border-color: transparent;
+	color: #fff;
+}
+.btn-pumpkin:hover {
+	background-color: #f68920;
+	border-color: transparent;
+	color: #fff;
+}
+.btn-purple {
+	background-color: #ad73ac;
+	border-color: transparent;
+	color: #fff;
+}
+.btn-purple:hover {
+	background-color: #ba3c93;
+	border-color: transparent;
+	color: #fff;
+}
+/*:::::::::: Custom class names not associated with Bootstrap ::::::::::*/
+
+
+
+/*:::::::::: Font Awesome ::::::::::*/
+
+.btn-icon-arrow:after {
+	content: "\f138";
+	margin-left: 6px;
+}
+.btn-icon-info:after {
+	content: "\f05a";
+	margin-left: 6px;
+}
+.btn-icon-doc:before {
+	content: "\f0f6";
+	margin-right: 6px;
+}
+.btn-icon-picture:before {
+	content: "\f03e";
+	margin-right: 6px;
+}
+.btn-icon-video:before {
+	content: "\f03d";
+	margin-right: 6px;
+}
+.btn-icon-external:before {
+	content: "\f14c";
+	margin-right: 6px;
+}
+.btn-icon-contact:before {
+	content: "\f0e0";
+	margin-right: 6px;
+}
+.btn-icon-learn:before {
+	content: "\f02d";
+	margin-right: 6px;
+}
+.btn-icon-more:before {
+	content: "\f055";
+	margin-right: 6px;
+}
+.btn-icon-cart:before {
+	content: "\f07a";
+	margin-right: 6px;
+}
+.btn-icon-back-arrow:before {
+	content:"\f053";
+	margin-right: 6px;
+}
+.btn-icon-reset:before {
+	content: "\f01e";
+	margin-right: 6px;
+}
+.btn-icon-collapse:before {
+	content: "\f054";
+	margin-right: 6px;
+}
+.btn-icon-expand:before {
+	content: "\f078";
+	margin-right: 6px;
+}
+.btn-icon-zoom:before {
+	content: "\f00e";
+	margin-right: 6px;
+}
+.btn-icon-download:before {
+	content: "\f019";
+	margin-right: 6px;
+}
+/*:::::::::: Font Awesome ::::::::::*/
+
+
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default.focus, 
+.btn-default:active, 
+.btn-default.active, 
+.open > .dropdown-toggle.btn-default {
+	background-color:#e5e5e5;
+	color:#666;
+}
+
+
+/*:::::::::: Workflow Arrow Buttons ::::::::::*/
+.workflow {
+	margin-top: 20px;	
+}
+.workflow-arrow {
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	padding: 17px;	
+	white-space: nowrap;
+}
+.workflow-arrow:hover, .workflow-arrow:active, .workflow-arrow:focus {
+	color: #fff;
+}
+.workflow-arrow:after {
+    content:'';
+    height: 56px;
+	width: 30px;
+	position: absolute;
+	right: -30px;
+	top: 0;     
+    z-index: 1;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-arrow:after {
+	right: 50px;
+	top: 56px;     
+}     
+}           
+/*Media Query*/
+
+
+.workflow-arrow-orange {
+	background: #ffb441;
+    border-radius:5px 0 0 5px;     
+}
+.workflow-arrow-orange:hover {
+	background: #ff9a00;
+}
+.workflow-arrow-orange:hover:after {
+	border-left-color: #ff9a00;
+}
+.workflow-arrow-purple {
+	background: #ad73ac;
+}
+.workflow-arrow-purple:hover {
+	background: #ad5aac;
+}
+.workflow-arrow-purple:hover:after {
+	border-left-color: #ad5aac;
+}
+.workflow-arrow-green {
+	background: #bac147;
+    border-radius:0 5px 5px 0;    
+}
+.workflow-arrow-green:hover {
+	background: #b0b825;
+}
+
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-arrow-orange, .workflow-arrow-green, .workflow-arrow-purple {
+    border-radius:5px;  
+}
+.workflow-arrow {
+	text-align: left;
+}
+}
+/*Media Query*/
+
+
+.workflow-arrow-orange:after {
+	border-bottom: 28px solid transparent;
+	border-left: 28px solid #ffb441;
+	border-top: 28px solid transparent;
+}
+.workflow-arrow-purple:after {
+	border-bottom: 28px solid transparent;
+	border-left: 28px solid #ad73ac;
+	border-top: 28px solid transparent;
+}
+
+.workflow-arrow-green:after {
+	content:none;
+}
+.workflow-arrow-orange-padding {
+	padding-right: 0;
+}
+.workflow-arrow-purple-padding {
+	padding-right: 0;
+	padding-left: 0;
+} 
+.workflow-arrow-green-padding {
+	padding-left: 0;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-arrow-orange-padding {
+	padding-right: 15px;
+	margin-bottom: 2px;
+}
+.workflow-arrow-purple-padding {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 2px;
+}
+.workflow-arrow-green-padding {
+	padding-left: 15px;
+}
+
+
+.workflow-arrow-orange:after {
+	border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #ffb441;
+}
+.workflow-arrow-purple:after {
+	border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #ad73ac;
+}
+.workflow-arrow-orange:hover:after {
+	border-top-color: #ff9a00;
+	border-left-color: transparent;
+}
+.workflow-arrow-purple:hover:after {
+	border-top-color: #ad5aac;
+	border-left-color: transparent;
+}
+
+
+
+}
+/*Media Query*/
+/*:::::::::: Workflow Arrow Buttons ::::::::::*/
+
+
+
+/*:::::::::: Preview Content ::::::::::*/   
+.thumbnail.preview-content {
+	border-color: #3e7ebe;
+	position: relative;
+}
+.preview-content span[class*="btn-icon"]:before {
+	font-size: 21px;
+    margin-right: 0;
+}
+.preview-content a span {
+    border-radius: 5px 0 3px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.preview-content a:hover span {
+	background: #328ed1;
+}
+.thumbnail.preview-content:hover {
+    border-color: #328ed1;
+}
+/*:::::::::: Preview Content ::::::::::*/   
+
+
+
+/*:::::::::: RGH ::::::::::*/
+.rgh-products-services .btn {
+    margin-top: 15px;
+}
+/*:::::::::: RGH ::::::::::*/        

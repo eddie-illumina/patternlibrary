@@ -1,0 +1,365 @@
+/*:::::::::: Base Style and Sticky Nav ::::::::::*/
+.hero-banner-container, .hero-banner-container-no-sticky-nav {
+	margin: 0 0 30px 0;
+	position: relative;
+}
+
+@media (max-width:1024px){
+	.hero-banner-container, .hero-banner-container-no-sticky-nav {
+    	margin-top:0px;
+    }
+}
+/*:::::::::: Base Style and Sticky Nav ::::::::::*/
+
+
+
+
+/*:::::::::: Default Background Colors ::::::::::*/
+.hero-default-pumpkin-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-pumpkin-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-pumpkin-no-ge-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-pumpkin-no-ge-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-green-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-green-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-blue-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-blue-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-purple-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-purple-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-teal-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-teal-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+.hero-default-raspberry-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-raspberry-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+
+
+
+
+/* Old class - DO NOT USE */
+.hero-default-orange-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-orange-bkg.jpg') no-repeat; 
+	background-size: cover; 
+}
+/* Old class - DO NOT USE */
+/*:::::::::: Default Background Colors ::::::::::*/
+
+
+
+
+/*:::::::::: Content Spacing ::::::::::*/
+.hero-text h2 {
+	margin: 40px 0 0 0;
+}
+.hero-text-with-bar h2 {
+ 	margin-top: 85px;
+}
+@media (max-width: 767px) {
+.hero-text h2 {
+	color: #fff;
+	margin: 40px 0;
+}
+.hero-text-with-bar h2 {
+	color: #fff;
+ 	margin-top: 40px;
+}
+}
+/*:::::::::: Content Spacing ::::::::::*/
+
+
+
+
+
+
+
+/*:::::::::: Hero Swap for Mobile ::::::::::*/
+@media (max-width: 767px) {
+.hero-swap-pumpkin-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-pumpkin-bkg.jpg') no-repeat !important;
+	min-height: 0 !important;
+}
+.hero-swap-pumpkin-no-ge-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-pumpkin-no-ge-bkg.jpg') no-repeat !important;
+	min-height: 0 !important;
+}
+.hero-swap-green-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-green-bkg.jpg') no-repeat !important;
+	min-height: 0 !important;
+}
+.hero-swap-blue-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-blue-bkg.jpg') no-repeat !important;
+	min-height: 0 !important;
+}
+.hero-swap-purple-bkg {
+	background: url('/content/dam/illumina-marketing/images/banners/hero-default-purple-bkg.jpg') no-repeat !important;
+	min-height: 0 !important;
+}
+.hero-swap-web-gray-2-bkg {
+	background: #f9f9f9 !important;
+	min-height: 0 !important;
+}
+.hero-swap-pumpkin-bkg h2, .hero-swap-green-bkg h2, .hero-swap-blue-bkg h2, .hero-swap-purple-bkg h2, 
+.hero-swap-pumpkin-bkg h3, .hero-swap-green-bkg h3, .hero-swap-blue-bkg h3, .hero-swap-purple-bkg h3, 
+.hero-swap-pumpkin-bkg h5, .hero-swap-green-bkg h5, .hero-swap-blue-bkg h5, .hero-swap-purple-bkg h5 {
+	color: #fff;
+}
+}
+/*:::::::::: Hero Swap for Mobile ::::::::::*/
+
+
+
+
+/*:::::::::: Bars ::::::::::*/
+.hero-pumpkin-bar-bkg {
+    padding: 25px 0;
+  	
+  	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),linear-gradient(to right,  rgba(242,110,2,0.7) 0%,rgba(247,152,0,0.8) 50%,rgba(255,168,27,0.8) 100%); /* W3C */
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyNmUwMiIgc3RvcC1vcGFjaXR5PSIwLjciLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjc5ODAwIiBzdG9wLW9wYWNpdHk9IjAuOCIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZhODFiIiBzdG9wLW9wYWNpdHk9IjAuOCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),-moz-linear-gradient(left,  rgba(242,110,2,0.7) 0%, rgba(247,152,0,0.8) 50%, rgba(255,168,27,0.8) 100%); /* FF3.6+ */
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),-webkit-gradient(linear, left top, right top, color-stop(0%,rgba(242,110,2,0.7)), color-stop(50%,rgba(247,152,0,0.8)), color-stop(100%,rgba(255,168,27,0.8))); /* Chrome,Safari4+ */
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),-webkit-linear-gradient(left,  rgba(242,110,2,0.7) 0%,rgba(247,152,0,0.8) 50%,rgba(255,168,27,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),-o-linear-gradient(left,  rgba(242,110,2,0.7) 0%,rgba(247,152,0,0.8) 50%,rgba(255,168,27,0.8) 100%); /* Opera 11.10+ */
+	background-image: url('/content/dam/illumina-marketing/images/banners/applications/oncology/hero-oncology-ge-bkg.png'),-ms-linear-gradient(left,  rgba(242,110,2,0.7) 0%,rgba(247,152,0,0.8) 50%,rgba(255,168,27,0.8) 100%); /* IE10+ */
+	background-repeat: no-repeat, no-repeat;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3f26e02', endColorstr='#ccffa81b',GradientType=1 ); /* IE6-8 */
+	margin: 25px 0 0 0;
+}
+@media (max-width: 767px) {
+
+.hero-pumpkin-bar-bkg {
+	background-image: none;
+	margin: 0;
+	padding: 15px 0 40px 0;
+}
+
+}
+:root .hero-pumpkin-bar-bkg {
+	filter: none \0/IE9;
+}
+.hero-pumpkin-bar-bkg h3 {
+	margin: 0;
+}
+
+.hero-clinical-bar-bkg {
+    background: url('/content/dam/illumina-marketing/images/banners/hero-ge-bkg.png')no-repeat center center / cover, -moz-linear-gradient(left, #ec9334 0%, #feb441 50%, #ec9334 100%);
+    background: url('/content/dam/illumina-marketing/images/banners/hero-ge-bkg.png')no-repeat center center / cover, -webkit-linear-gradient(left, #ec9334 0%, #feb441 50%, #ec9334 100%);
+    background: url('/content/dam/illumina-marketing/images/banners/hero-ge-bkg.png')no-repeat center center / cover, linear-gradient(to right, #ec9334 0%, #feb441 50%, #ec9334 100%);
+    min-height: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .hero-banner-container .hero-clinical-bar-bkg {
+        display: none;
+    }
+}
+/*:::::::::: Bars ::::::::::*/
+
+
+
+
+
+/*:::::::::: Takeover Banner ::::::::::*/
+
+.banner-takeover-wrapper {
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+	.banner-takeover-wrapper {
+		margin-bottom: 60px;
+	}
+}
+
+/*IE Specific Fix*/
+@media all and (-ms-high-contrast: none) and (min-width: 768px), (-ms-high-contrast: active) {
+	.banner-takeover-wrapper {
+		display: flex;
+	}
+	.banner-takeover {
+		width: 100%;
+	}
+}
+/*IE Specific Fix*/
+
+
+/*Default Banner Background Positioning*/
+.banner-takeover {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Default Banner Background Positioning*/
+
+
+/* Banner Copy and Button Styling*/
+.banner-takeover p {
+	font-size: 18px;
+    margin-bottom: 30px;
+}
+.banner-takeover .btn-primary-outline {
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .banner-takeover .btn-primary-outline {
+        color: #fff;
+        background-color: transparent;
+        background-image: none;
+        border-color: #fff;
+    }
+}
+
+@media (max-height: 800px) {
+    .banner-takeover p {
+        font-size: 16px;
+    }
+    .banner-takeover h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+}
+/* Banner Copy and Button Styling*/
+
+
+
+/* Banner Takeover Height Adjustment */
+@media (min-width: 768px) {
+	.banner-takeover {
+		box-shadow: inset 0 -14vh 0 0 #fff;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		/*min-height: calc(100vh - 135px);*/
+        height: calc(100vh - 133px);
+		position: relative;
+	}
+}
+
+@media (max-width: 1023px) {
+	.banner-takeover {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media (max-width: 767px) {
+	.banner-takeover {
+        height: inherit;
+    }
+}
+
+@media (max-height: 700px) {
+	.banner-takeover {
+		/*min-height: calc(100vh - 135px);*/
+        height: inherit;
+	}
+}
+/* Banner Takeover Height Adjustment */
+
+
+/* Mobile Background Color and Button*/
+@media (max-width: 767px) {
+	.banner-takeover {
+		background: url('/content/dam/illumina-marketing/images/banners/hero-default-blue-bkg.jpg') no-repeat !important;
+		background-size: cover !important;
+    }
+    .banner-takeover h2,
+    .banner-takeover h3,
+    .banner-takeover p {
+		color: #fff;
+    }
+
+	.banner-takeover .btn-primary {
+		color: #3e7ebe;
+		background-color: #fff;
+		background-image: none;
+		border-color: transparent;
+	}
+
+    .banner-takeover .btn-primary:hover {
+		background-color: rgba(255,255,255,.9);
+		color: #3e7ebe;
+    	border-color: transparent;
+	}
+}
+/* Mobile Background Color and Button*/
+
+
+/*Banner Container Top*/
+.banner-takeover-container-top {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+	.banner-takeover-container-top {
+		padding-bottom: 60px;
+		padding-top: 60px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+	       -ms-flex-align: center;
+	          align-items: center;
+		margin-top: auto;
+		margin-bottom: auto;
+		position: relative;
+	}
+}
+@media (max-height: 800px) and (max-width: 1200px) {
+  .banner-takeover-container-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+/*Banner Container Top*/
+
+
+/*Banner Container Bottom*/
+.banner-takeover-container-bottom {
+    padding-bottom: 30px;
+}
+.banner-takeover-container-bottom img {
+    max-height: 100%;
+}
+/*Banner Container Bottom*/
+
+/*:::::::::: End Takeover Banner ::::::::::*/
+
+
+
+
+/*:::::::::: Change hero image in mobile view ::::::::::*/
+@media (max-width: 768px) {
+    .remove-hero-img-in-mobile-view {
+      background: url(//assets.illumina.com/content/dam/illumina-marketing/images/banners/hero-default-orange-bkg.jpg) no-repeat !important;
+      background-size: cover;
+    }
+    .remove-hero-img-in-mobile-view h2,
+    .remove-hero-img-in-mobile-view h3 {  
+      color:white;
+    }  
+}
+/*:::::::::: Change hero image in mobile view ::::::::::*/

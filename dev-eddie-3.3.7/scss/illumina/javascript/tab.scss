@@ -1,0 +1,378 @@
+/*:::::::::: Workflow Nav Tabs ::::::::::*/
+.workflow-nav-tabs {
+	margin-top: 10px;
+}
+
+.workflow-nav-tabs .nav-tabs {
+	border-bottom: none;
+}
+
+
+.workflow-nav-tabs > .nav-tabs > li > a {
+	background: #3e7ebe;
+	border: none;
+}
+
+.workflow-nav-tabs > .nav-tabs > li > a:hover, .workflow-nav-tabs > .nav-tabs > li > a:focus {
+	background: #3e7ebe;
+	border: none;
+	color: #fff;
+}
+
+.workflow-nav-tabs .nav {
+	margin-bottom: 5px;
+}
+
+.workflow-nav-tabs .nav-tabs > li {
+	margin-bottom: 0;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li {
+	float: none;
+	margin-bottom: 2px;
+}
+}
+/*Media Query*/
+
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow {
+	color: #666;
+	display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 56px;
+    line-height: 56px;
+    margin-right: 3px;
+    padding: 0 0 0 27px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow {
+    margin-right: 0;
+    padding: 0 0 0 17px;
+    text-align: left;
+}
+}
+/*Media Query*/
+
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow:before {
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow:after {
+    content: "";
+    position: absolute;
+    right: -28px;
+    top: 0;
+    z-index: 1;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow:before {
+    left: inherit;
+    right: 50px;
+    top: 57px;
+    z-index: 1;
+}
+
+.workflow-nav-tabs .nav-tabs > li .workflow-tab-arrow:after {
+    right: 50px;
+    top: 54px;
+}
+}
+/*Media Query*/
+
+
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray {
+	background: #e5e5e5;
+	border-radius: 0;
+}
+
+.workflow-nav-tabs .nav-tabs > .active .workflow-arrow-gray {
+	background: #3e7ebe;
+	color: #fff;
+}
+
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:before {
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid #fff;
+    border-top: 28px solid transparent;
+}
+
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:after {
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid #e5e5e5;
+    border-top: 28px solid transparent;
+}
+
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:before {
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    border-top: 18px solid #fff;
+}
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:after {
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    border-top: 18px solid #e5e5e5;
+}
+}
+/*Media Query*/
+
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:hover:after, .workflow-nav-tabs .nav-tabs > .active .workflow-arrow-gray:after {
+    border-bottom: 28px solid transparent;
+    border-left: 28px solid #3e7ebe;
+    border-top: 28px solid transparent;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:hover:after, .workflow-nav-tabs .nav-tabs > .active .workflow-arrow-gray:after {
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    border-top: 18px solid #3e7ebe;
+}
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray:hover:after, .workflow-nav-tabs .nav-tabs > .active .workflow-arrow-gray:after {
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    border-top: 18px solid #3e7ebe;
+}
+}
+/*Media Query*/
+
+.workflow-nav-tabs .nav-tabs > li:first-child .workflow-arrow-gray {
+	border-radius: 5px 0 0 5px;
+}
+
+.workflow-nav-tabs .nav-tabs > li:last-child .workflow-arrow-gray {
+	border-radius: 0 5px 5px 0;
+	margin-right: 0;
+}
+
+.workflow-nav-tabs .nav-tabs > li:first-child .workflow-arrow-gray:before {
+	border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+
+.workflow-nav-tabs .nav-tabs > li:last-child .workflow-arrow-gray:after {
+	border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-nav-tabs .nav-tabs > li .workflow-arrow-gray, .workflow-nav-tabs .nav-tabs > li:first-child .workflow-arrow-gray, .workflow-nav-tabs .nav-tabs > li:last-child .workflow-arrow-gray {
+	border-radius: 5px;
+}
+.workflow-nav-tabs .nav-tabs > li:first-child .workflow-arrow-gray:before {
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    border-top: 18px solid #fff;
+}
+.workflow-nav-tabs .nav-tabs > li:last-child .workflow-arrow-gray:before {
+	border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+}
+/*Media Query*/
+
+
+
+/*Workflow 5 Tabs*/
+.workflow-5-tabs .nav-tabs > li {
+	width: 20%;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-5-tabs .nav-tabs > li {
+	width: 100%;
+}
+}
+/*Media Query*/
+/*Workflow 5 Tabs*/
+
+
+/*Workflow 4 Tabs*/
+.workflow-4-tabs .nav-tabs > li {
+	width: 25%;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-4-tabs .nav-tabs > li {
+	width: 100%;
+}
+}
+/*Media Query*/
+/*Workflow 4 Tabs*/
+
+
+/*Workflow 3 Tabs*/
+.workflow-3-tabs .nav-tabs > li {
+	width: 33.3333333%;
+}
+/*Media Query*/
+@media (max-width: 992px) {
+.workflow-3-tabs .nav-tabs > li {
+	width: 100%;
+}
+}
+/*Media Query*/
+/*Workflow 3 Tabs*/
+
+
+
+/*:::::::::: Folder Tab ::::::::::*/
+.folder-tab .nav-tabs {
+    border: medium none;
+    text-align: center;
+}
+.folder-tab .nav-tabs li {
+    display: inline-block;
+    float: none;
+}
+
+.folder-tab .tab-content {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 6px;
+    position: relative;
+    z-index: 10;
+}
+
+
+.folder-tab .nav-tabs > li.active > a, .folder-tab .nav-tabs > li.active > a:hover, .folder-tab .nav-tabs > li.active > a:focus {
+    background: #e5e5e5 !important;
+    border-color: #e5e5e5 #e5e5e5 transparent !important;
+    color: #666;
+    z-index: 15;
+}
+.folder-tab .nav-tabs > li {
+    margin-bottom: -2px;
+}
+.folder-tab .nav-tabs > li > a {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    padding: 15px 20px;
+    z-index: 0;
+}
+.nav-tabs > li > a:hover {
+    background: #3e7ebe !important;
+    border-color: #3e7ebe !important;
+    color: #fff;
+}
+
+
+.folder-tab .folder-bkg {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 25px;
+}
+.folder-tab .tab-content .folder-bkg > .tab-pane.active {
+    display: block;
+    visibility: visible;
+}
+.folder-tab .tab-content .folder-bkg > .tab-pane {
+    display: none;
+    visibility: hidden;
+}
+
+.folder-tab .vertical-workflow-hr {
+    background: #e5e5e5;
+    border-radius: 5px;
+    height: 6px;
+    margin: 25px 0;
+}
+.folder-tab .vertical-workflow-hr:before {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #e5e5e5;
+    content: "";
+    left: 50%;
+    margin-left: -15px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+@media (max-width: 992px) {
+.folder-tab .nav-tabs > li {
+    display: block;
+    margin-bottom: 5px;
+}
+.folder-tab .nav-tabs > li > a {
+    border-radius: 5px;
+    margin-right: 0;
+}
+}
+/*:::::::::: Folder Tab ::::::::::*/
+
+
+
+
+/*:::::::::: Justified Nav Tabs ::::::::::*/
+@media (min-width: 768px) {
+	.tab-panel .nav-tabs.nav-justified > li {
+		vertical-align: middle;
+	}
+	
+	.tab-panel .nav-tabs.nav-justified > li > a {
+	    border-radius: 0;
+	    display:table;
+	    width: 100%;
+	    height: 100%;
+	}
+	
+	.tab-panel .nav-tabs.nav-justified > li > a .content {
+	    display: table-cell;
+	    width: 100%;
+	    height: 100%;
+	    vertical-align: middle;
+	}
+}
+
+@media (max-width: 767px) {
+	.tab-panel .nav-tabs.nav-justified > li.equal-height-box {
+		height: auto !important;
+	}
+}
+
+.tab-panel .nav-tabs > li > a {
+	background-color: #f9f9f9;
+	border-radius: 0;
+	color: #bbb;
+	font-weight: bold;
+	transition: all 0.2s ease;
+}
+
+.tab-panel  .nav-tabs > li.active > a {
+	background-color: #fff;
+	color: #328ed1;
+}
+
+.tab-panel .nav-tabs > li.active > a:hover,
+.tab-panel .nav-tabs > li.active > a:focus {
+	background-color: #fff !important;
+    border-color: #ddd !important;
+    border-bottom-color: transparent !important;
+	color: #328ed1;
+}
+
+.tab-panel .tab-content .well {
+	background-color: #fff;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 20px 0 0 0;
+}
+/*:::::::::: End Justified Nav Tabs ::::::::::*/

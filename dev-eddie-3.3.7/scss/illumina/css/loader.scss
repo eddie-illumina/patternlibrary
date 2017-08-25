@@ -1,0 +1,274 @@
+.loading-animation-wrapper {
+  display: inline-block;
+  align-items: center;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.loading-animation-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 24px;
+  border-radius: 6.85714286px;
+  padding: 0 0;
+}
+.loading-animation-viewport {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 4px;
+  overflow: hidden;
+}
+.loading-animation-bar {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #085cc1 15%, #085cc1 85%, rgba(0, 0, 0, 0));
+  animation: move_bar 0.9s linear infinite;
+}
+@-webkit-keyframes move_bar {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+@-moz-keyframes move_bar {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+@-o-keyframes move_bar {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+@keyframes move_bar {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+/**************************************************** Saving Loader ******************************************/
+.saving-state {
+  opacity: .3;
+}
+.loader-position {
+  padding-top: 100px;
+  width: 100%;
+  z-index: 1;
+}
+.loader-position .loader-user-feedback {
+  padding-right: 50px;
+  text-align: center;
+  opacity: .6;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+  width: 200px;
+  font-weight: 600;
+}
+.loader-position .loader-user-feedback .dots {
+  display: inline-block;
+  position: relative;
+}
+.loader-position .loader-user-feedback .dots:not(:last-child) {
+  margin-right: 6.5px;
+}
+.loader-position .loader-user-feedback .dots:before,
+.loader-position .loader-user-feedback .dots:after {
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+}
+.loader-position .loader-user-feedback .dots:after {
+  left: 12px;
+}
+.loader-position .loader-user-feedback .dots:nth-child(1):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -1.8s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(1):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -1.8s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(2):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -3.6s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(2):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -3.6s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(3):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -5.4s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(3):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -5.4s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(4):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -7.2s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(4):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -7.2s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(5):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -9s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(5):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -9s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(6):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -10.8s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(6):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -10.8s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(7):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -12.6s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(7):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -12.6s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(8):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -14.4s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(8):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -14.4s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(9):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -16.2s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(9):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -16.2s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(10):before {
+  animation: animBefore 2s linear infinite;
+  animation-delay: -18s;
+  background-color: #085cc1;
+  transform: translateY(-330%);
+}
+.loader-position .loader-user-feedback .dots:nth-child(10):after {
+  animation: animAfter 2s linear infinite;
+  animation-delay: -18s;
+  background-color: #BAC1CB;
+  transform: translateY(330%);
+}
+@keyframes animBefore {
+  0% {
+    transform: scale(1) translateY(330%);
+    z-index: 1;
+  }
+  25% {
+    background-color: #0968dc;
+    transition: background-color 2s linear;
+    transform: scale(1.6) translateY(0);
+    z-index: 1;
+  }
+  50% {
+    transform: scale(1) translateY(-330%);
+    z-index: -1;
+  }
+  75% {
+    background-color: #085cc1;
+    transition: background-color 2s linear;
+    transform: scale(0.5) translateY(0);
+    z-index: -1;
+  }
+  100% {
+    transform: scale(1) translateY(330%);
+    z-index: -1;
+  }
+}
+@keyframes animAfter {
+  0% {
+    transform: scale(1) translateY(-330%);
+    z-index: -1;
+  }
+  25% {
+    background-color: #BAC1CB;
+    transition: background-color 2s linear;
+    transform: scale(0.5) translateY(0);
+    z-index: -1;
+  }
+  50% {
+    transform: scale(1) translateY(330%);
+    z-index: 1;
+  }
+  75% {
+    background-color: #8995A5;
+    transition: background-color 2s linear;
+    transform: scale(1.6) translateY(0);
+    z-index: 1;
+  }
+  100% {
+    transform: scale(1) translateY(-330%);
+    z-index: 1;
+  }
+}

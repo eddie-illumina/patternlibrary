@@ -1,0 +1,82 @@
+/*:::::::::: Product Search List (introduced in Faceted Search component) ::::::::::*/
+/*:::::::::: Added by Frank Shanley | August 19, 2016 ::::::::::*/
+@media (min-width: 481px) {
+	.product-facet > .content-section > .container > .row {
+		display: flex;
+	}
+	.product-facet .col-split-gutter-spacing > [class*="col-"]:last-child {
+		padding-left: 40px;
+	}
+	.product-facet .check-prod, .product-facet .check-list {
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: none;
+	}
+}
+@media (min-width: 481px) and (max-width:767px) {
+	.product-facet .facet-col {
+		width: 50%;
+	}
+	#appsListContainer {
+		display: flex;
+	}
+}
+@media (max-width:480px) {
+	.product-facet .check-list,
+	.product-facet .check-prod {
+		width: 100%;
+	}
+	.product-facet .product-col {
+		padding: 30px !important;
+		
+	}
+}
+.product-facet .check-list > img {
+	width: 100%; /* IE table-cell width fix */
+}
+.product-facet a[class^="morelink-product"]{
+	position: relative;
+	color: #328ed1;
+	margin-top: 6px;
+	font-weight: normal;
+	display: inline-block;
+}
+	.product-facet a[class^="morelink-product"]:hover {
+		cursor: pointer;
+	}
+	.product-facet a[class^="morelink-product"]:after {
+		content: '\f107';
+	    position: absolute;
+	    top: 0px;
+	    right: -15px;
+	    font-family: FontAwesome;
+	    color: #328ed1;
+	}
+	.product-facet a[class^="morelink-product"].less-product:after {
+		content: '\f106';
+	}
+	
+.product-facet .img-check {
+	/* border-bottom: 1px solid #e5e5e5; */
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.product-facet .input-chk label {
+	padding-left: 18px;
+	font-weight: normal;
+}
+.product-facet .input-chk input {
+	margin-left: -18px;
+	position: absolute;
+}
+.product-facet .product-details-list > li {
+	list-style: none;
+}
+.product-facet .back-to-top .col-sm-3 {
+	border-right: 1px solid #e5e5e5;
+}
+
+.linktotop .fa {
+	margin-left: 6px;
+}
+/*:::::::::: Product Search List (Faceted Search Component) ::::::::::*/

@@ -1,0 +1,106 @@
+/* css/javascript/counter.css */
+
+.number-counter {
+  text-align:center;
+  color:#666;
+}
+
+.pub-label {
+  text-transform:capitalize;
+  font-size:14px;
+  margin-top:10px;
+  font-weight:bold;
+}
+
+.counter {
+  margin:0;
+  padding:0;
+}
+
+.counter li { 
+  display:inline-block;
+  overflow:hidden;
+  width:32px;
+  height:32px;
+  list-style:none;
+  border:1px solid #bbb;
+  border-left:0;
+  position:relative;
+}            
+
+.counter li.web-gray-gradient {
+  border-color:#bbb;
+}
+
+.counter li.pumpkin-gradient {
+  border-color:#e06425;    
+}
+
+.counter li.purple-gradient {
+  border-color:#703d5e;      
+}
+
+.counter li.blue-gradient {
+  border-color:#2e6991;      
+}
+
+.counter li.green-gradient {
+  border-color:#447d38;         
+}
+
+.counter li span {
+  display:block;
+  height:30px;
+  width:30px;
+  text-align:center;
+  padding-top:5px;
+}
+
+.counter li:first-child {
+  border-left:1px solid #bbb;
+  border-radius:3px 0 0 3px;
+}
+
+.counter li:last-child {
+  border-radius:0 3px 3px 0;   
+}
+
+[class$="gradient"] span,
+[class$="gradient"] .pub-label {
+  color:white;
+  font-weight:normal;
+}    
+
+.web-gray-gradient span {
+  color:#666;
+}   
+
+.footer-counter .counter {
+    display:inline-block;
+}
+
+.footer-counter  .pub-label {
+    display:none;
+}
+
+.footer-counter .counter li,
+.footer-counter .counter li span {
+    height:24px;
+    width:24px;
+}
+
+.footer-counter .counter li {
+    margin-bottom:-7px;
+}
+
+.footer-counter .counter li span {
+    padding-top:1px;
+}
+
+.footer-counter {
+    text-align:center;
+    margin:15px 0;
+}
+
+/* css/javascript/counter.css */
+

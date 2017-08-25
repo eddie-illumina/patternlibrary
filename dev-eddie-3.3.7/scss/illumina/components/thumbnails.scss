@@ -1,0 +1,559 @@
+/*:::::::::: Thumbnail ::::::::::*/
+.thumbnail {
+	border: 1px solid #bbb;
+	margin-bottom: 30px;
+}
+/*
+.col-split-group-spacing .thumbnail {
+	margin-bottom: 0;
+}
+*/
+
+.thumbnail, .thumbnail img {
+    border-radius: 5px;
+}
+/* Quick fix for caption links spacing */
+.thumbnail .caption a + br {
+	line-height: 2em;
+}
+/* Quick fix for caption links spacing */
+/*:::::::::: Thumbnail ::::::::::*/
+
+
+
+
+
+/*:::::::::: Thumbnail Preview ::::::::::*/
+.thumbnail-preview {
+    background: rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.thumbnail-preview .icon-fa {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.thumbnail-preview .mask {
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.thumbnail-preview .mask:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-preview.thumbnail:hover, .thumbnail-preview.thumbnail:active, .thumbnail-preview.thumbnail:focus {
+    border-color: #bbb;
+}
+/*:::::::::: Thumbnail Preview ::::::::::*/
+
+
+
+/*:::::::::: Thumbnail Feature ::::::::::*/
+.thumbnail.thumbnail-feature {
+    padding: 0;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.thumbnail-feature .caption {
+    height: inherit !important;
+    padding: 15px;
+}
+
+.thumbnail-feature .caption:after {
+    background: none;
+}
+
+.thumbnail-feature h5 {
+    margin: 0;
+	font-family: "HelveticaNeueW01-65Medi";
+}
+
+.thumbnail-feature .btn {
+    border-radius: 0 5px 5px 0;
+}
+
+.thumbnail-feature .icon-fa:before {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.table-responsive.thumbnail-feature-collapse {
+    margin: -16px 15px 15px 15px;
+}
+/*:::::::::: Thumbnail Feature ::::::::::*/
+
+
+
+
+/*:::::::::: Thumbnail Grid ::::::::::*/
+.thumbnail-grid .btn-block + .btn-block {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+.thumbnail-grid .thumbnail .caption {
+	height: 140px;
+	position:relative;
+	overflow:hidden;
+}
+
+.thumbnail-grid .thumbnail .caption:after {
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:35px;
+	z-index:1;
+	content:'';
+}
+
+}
+
+@media (min-width:992px) {
+.thumbnail-grid .thumbnail .caption {
+	height: 160px;
+    }
+}
+/*:::::::::: Thumbnail Grid ::::::::::*/
+
+
+
+/*:::::::::: Thumbnail Section ::::::::::*/
+.thumbnail-section .thumbnail {
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    transition: all .2s;
+}
+
+.thumbnail-section .thumbnail:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .12), 0 0 5px rgba(0, 0, 0, .08);
+    border-color: #bbb;
+    -webkit-transform: translate(0, -3px);
+    -ms-transform: translate(0, -3px);
+    transform: translate(0, -3px);
+}
+
+.thumbnail-section .thumbnail img {
+    border-radius: 0;
+}
+
+.thumbnail-section .thumbnail .caption {
+    padding: 35px;
+}
+
+.thumbnail-section .thumbnail .caption p {
+    margin: 0;
+}
+
+.thumbnail-section .mask {
+    opacity: 0;
+    /*overflow: visible;*/
+    background: rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.thumbnail-section .mask:hover {
+    opacity: 1;
+}
+/*:::::::::: Thumbnail Section ::::::::::*/
+
+
+
+
+/*:::::::::: Content Cards - 3up ::::::::::*/
+.thumbnail-card  {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s;
+    /* The following fix the flickering on hover */
+	-webkit-font-smoothing: antialiased;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+
+.thumbnail-card .caption-heading {
+    box-shadow: inset 0 -6px 0 0 rgba(0,0,0,0.15);
+    padding: 20px 15px 26px 15px;
+	display: table;
+	width: 100%;
+}
+
+.thumbnail-card .card-text {
+    font-size: 16px;
+    margin: 15px;
+}
+
+.thumbnail-card .caption-heading > h5 {
+    margin: 0;
+    /* Leyla: adding this to center-align headers */
+
+    vertical-align: middle;
+    display: table-cell;
+    /* center align code end */
+}
+
+@media (max-width: 767px) {
+	.thumbnail-card .caption-heading.equal-height-box {
+		height: auto !important;
+	}
+}
+
+.thumbnail-card:hover {
+    border-color: #bbb !important;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12),
+                0 0 5px rgba(0, 0, 0, 0.08);
+    -webkit-transform: translate(0, -3px);
+            transform: translate(0, -3px);
+}
+.thumbnail-card:focus {
+    border-color: #bbb !important;
+}
+
+.thumbnail.thumbnail-card > img  {
+    border-radius: 0;
+}
+
+@media (min-width: 768px) {
+    .flex-row > div[class*="col-"] > .parsys,
+    .flex-row > div[class*="col-"] > .parsys > .parbase {
+	    display: -ms-flexbox;
+	    display: -webkit-box;
+	    display: flex;
+    }
+}
+/*:::::::::: End Content Cards - 3up ::::::::::*/
+
+
+
+
+/*:::::::::: thumbnail 2.0 Component ::::::::::*/
+
+.thumbnail.thumbnail2 {
+    border: 0;
+    background-color: #eaf1f9; /* for IE fallback */
+    background-color: rgba(124,168,212, 0.2);
+}
+.thumbnail2 p {
+    margin-bottom:0;
+}
+.thumbnail2 p a {
+	display: inline-block;
+    margin-top: 5px;
+}
+.static-workflow-img {
+	padding:20px 0;
+	text-align:center;
+	background-color:#fff;
+	margin-bottom:10px;
+	border-radius:3px;
+}
+.static-workflow-img span {
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.static-workflow-img span:first-child {
+    margin-left: 0;
+}
+
+.static-workflow-img span:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent;
+    border-left-color: #e5e5e5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 15px 0 0 -30px;
+}
+
+.static-workflow-img span:first-child:before {
+    content: none;
+}
+
+.static-workflow-header {
+    margin-top:20px;
+    padding:15px;
+    border:1px solid #bbb;
+    border-bottom:0;
+    border-radius:5px 5px 0 0;
+}
+
+.static-workflow-header h3 {
+    margin-bottom:0;
+}
+
+.static-workflow {
+    border:1px solid #bbb;
+    border-radius:0 0 5px 5px;
+    overflow:hidden;
+}
+
+.static-workflow .row {
+	margin:0;
+}
+
+.static-workflow .row > div {
+    border-left:1px solid #bbb;
+    padding:0;
+}
+
+.static-workflow .row > div:first-child {
+	border-left:0;
+}
+
+.sw-upper-content {
+	position:relative;
+    border-bottom:5px solid #7ca8d4;
+    margin:1px;
+}
+
+.static-workflow-control .large-badge,
+.sw-upper-content .large-badge {
+    font-size:26px;
+	padding:10px 14px 6px;
+	border-radius:100%;
+}
+
+.sw-upper-content .large-badge {
+	background-color:#f68920;
+	position:absolute;
+	left:0;
+    top:0;
+    margin:15px 0 0 15px;
+}
+
+.sw-upper-content p {
+	font-size:24px;
+	line-height:1.1em;
+    letter-spacing:1px;
+    margin-bottom:0;
+    margin-top:10px;
+	font-family:"HelveticaNeueW01-LtExt", sans-serif;
+}
+
+.sw-upper-content p small {
+	display:block;
+    margin-top:5px;
+	font-size:.6em;
+}
+
+.sw-lower-content {
+    padding:20px;
+}
+
+.sw-lower-content > a {
+    font-size:16px;
+    display:inline-block;
+    margin-bottom:5px;
+}
+
+.static-workflow-control .large-badge,
+.sw-upper-content {
+	padding:20px 0;
+}
+
+@media screen and (max-width:768px) {
+	.static-workflow-header {
+    	padding-bottom:0;
+	}
+	.static-workflow-header h3 {
+    	font-size:18px;
+        line-height:1.2em;
+	}
+	.static-workflow-control {
+    	border:1px solid #bbb;
+        border-top:0;
+        border-bottom:0;
+		padding:10px 15px;
+        text-align:center;
+        width:100%;
+    }
+	.static-workflow-control:after {
+		content:"";
+        position:absolute;
+        left:50%;
+        width:120px;
+        margin-left:-60px;
+        margin-top:20px;
+        z-index:-1;
+        border-top:2px solid #bbb;
+    }
+	.static-workflow-control .large-badge {
+        font-size:18px;
+        padding:12px 14px 8px;
+    	background-color:#e5e5e5;
+    	border:2px solid #bbb;
+		margin:0 5px;
+    }
+    .static-workflow-control .active {
+    	background-color:#7ca8d4;
+    }
+    .static-workflow {
+    	overflow:auto;
+	}
+    .static-workflow .row {
+    	width:300%;
+    }
+	.static-workflow .row > div {
+    	border:0;
+	}
+    .sw-upper-content .large-badge {
+    	display:none;
+	}
+	.sw-upper-content img {
+		max-width:60px;
+        height:50px;
+	}
+}
+
+/*:::::::::: thumbnail 2.0 Component ::::::::::*/
+
+/* Added by Adam Prince 05/16/16 for instances where thumbnails require image caption */
+.thumbnail-preview-caption {
+	margin-top: 5px;
+}
+
+/* New Resource Care Design -- Added 5/10/17 */
+
+.resource-card-group .thumbnail {
+	padding: 0;
+	overflow: hidden;
+}
+
+.resource-card-group .thumbnail + a {
+	display: block;
+}
+
+.resource-card-group .thumbnail .caption {
+	border-top: solid 7px #3e7ebe;
+	padding: 12px;
+}
+
+.resource-card-group .thumbnail img,
+.resource-card-group .thumbnail .btn-block {
+	border-radius: 0;
+}
+
+.resource-card-group .thumbnail .btn-block {
+	text-align: center;
+	font-weight: bold;
+	background-color: #f9f9f9;
+	border: 0;
+	border-top: solid 1px #bbbbbb;
+	padding: 10px;
+	color: #3e7ebe;
+	transition: ease-in-out background-color 200ms;
+	-webkit-transition: ease-in-out background-color 200ms;
+	-ms-transition: ease-in-out background-color 200ms;
+	-o-transition: ease-in-out background-color 200ms;
+}
+
+.resource-card-group .thumbnail .btn-block:hover {
+	background-color: #e5e5e5;
+}
+
+/* Custom color options */
+.resource-card-group.resource-card-group-pumpkin .thumbnail .caption {
+	border-color: #ffb441;
+}
+.resource-card-group.resource-card-group-purple .thumbnail .caption {
+	border-color: #885087;
+}
+.resource-card-group.resource-card-group-green .thumbnail .caption {
+	border-color: #81af45;
+}
+.resource-card-group.resource-card-group-yellow .thumbnail .caption {
+	border-color: #f1c719;
+}
+.resource-card-group.resource-card-group-raspberry .thumbnail .caption {
+	border-color: #c5246e;
+}
+.resource-card-group.resource-card-group-teal .thumbnail .caption {
+	border-color: #24bec5;
+}
+
+/* Fixed height for "legacy" thumbnail grids */
+@media (min-width: 768px) {
+	.thumbnail-grid .thumbnail .caption {
+		height: 185px;
+	}
+}
+
+/* Display RGH Resource Card h5s as h6s */
+.resourcesList .thumbnail .caption > h5,
+.resourcesListFeatured .thumbnail .caption > h5 {
+	font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+	font-family: inherit;
+	letter-spacing: 0;
+}
+
+
+/*:::::::::: Techniques Home Page ::::::::::*/
+.techniques-persona-cards [class*="col-"]:last-child .thumbnail {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+.techniques-persona-cards .caption {
+    height: 270px !important;
+}
+}
+
+@media (min-width:992px) {
+.techniques-persona-cards .caption {
+    height: 290px !important;
+	}
+.techniques-persona-cards .thumbnail {
+    margin-bottom: 0;
+	}
+}
+/*:::::::::: Techniques Home Page ::::::::::*/

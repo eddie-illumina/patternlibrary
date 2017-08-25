@@ -1,0 +1,239 @@
+/*:::::::::: Extend Bootstrap Styles ::::::::::*/
+table {
+  empty-cells: show;
+  /* Fixes Safari bug where table does not extend the full width. */
+  max-width: inherit;
+}
+
+/* Make lists flush left with a hanging indent. Woot! */
+.table ul,
+.table ol {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.table ul li,
+.table ol li {
+  list-style-position: outside;
+  margin-left: 15px;
+}
+
+/* Because they act as headings, table captions are styled to match h5 */
+.table > caption {
+  background-color: #f9f9f9;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  font-family: "HelveticaNeueW01-55Roma", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 24px;
+  padding-left: 8px;
+}
+
+@media screen and (min-width: 767px) {
+  .table > caption {
+    border-width: 1px 1px 0 1px;
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+.table > tfoot > tr > th {
+  border-top-width: 2px;
+}
+
+.table-selectable tbody tr {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+.table-selectable tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.table-footnotes {
+  font-size: 12px;
+  margin-bottom: 20px;
+  /* Bring the footnotes up a bit for stronger visual association with the table above */
+  margin-top: -10px;
+}
+
+.table-footnotes p {
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 767px) {
+	.table-responsive.table-wrap > .table > thead > tr > th, 
+  	.table-responsive.table-wrap > .table > tbody > tr > th, 
+  	.table-responsive.table-wrap > .table > tfoot > tr > th, 
+  	.table-responsive.table-wrap > .table > thead > tr > td, 
+  	.table-responsive.table-wrap > .table > tbody > tr > td, 
+  	.table-responsive.table-wrap > .table > tfoot > tr > td {
+		white-space: normal;
+  	}
+  
+  .table-footnotes {
+    border-top: 2px solid #ddd;
+    padding: 8px 8px 5px 8px;
+    width: auto;
+    overflow-x: auto;
+	/* Override the margin styles above */ 
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+.web-gray-1-bkg th {
+    border-right: 1px solid #fff !important;
+}
+.web-gray-1-bkg th:last-child {
+    border-right: none !important;
+}
+
+/*:::::::::: Promo Table ::::::::::*/
+/* Added by Frank Shanley 03/9/16 */
+
+.promo-table {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  overflow: visible;
+}
+
+.promo-table table.bordered {
+  width: 100%;
+  min-width: 650px;
+}
+
+.promo-table h3 {
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  padding: 35px 0 25px;
+  float: left;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.promo-table h3 small {
+  font-size: 11px;
+  position: absolute;
+  width: 100%;
+  letter-spacing: 0;
+  display: block;
+  text-align: center;
+}
+
+.promo-table .promo-table-cta {
+  z-index: 10;
+  font-size: 10px;
+  background: #f68920;
+  color: #fff;
+  padding: 7px 0;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  border-left: 2px solid #f68920;
+  border-right: 2px solid #f68920;
+  box-sizing: content-box;
+  position: absolute;
+  top: -23px;
+  border-radius: 7px 7px 0 0;
+  left: -2px;
+}
+
+.promo-table .promo-table-cta sup {
+  margin-top: -0.4em;
+}
+
+.promo-table table.bordered tr td,
+.promo-table table.bordered tr th {
+  width: 24.33%;
+  background: #f9f9f9;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 13px;
+  border: 1px solid #cfcfcf;
+}
+
+.promo-table table.bordered tr th:first-child {
+  width: 27%;
+  text-align: left;
+}
+
+.promo-table table.bordered thead tr th {
+  background: #f9f9f9;
+  border: 0;
+  padding:0;
+  border: 1px solid #cfcfcf!important;
+}
+
+.promo-table table.table td ul li {
+  font-size: 15px;
+}
+
+.promo-table table.bordered .fa {
+  color: #f68920;
+  font-size: 17px;
+}
+.promo-table-pumpkin table.bordered .fa {
+	color: #ffb441;
+}
+
+.promo-table-light-gray table.bordered .fa {
+	color: #bbb;
+}
+.promo-table-dark-gray table.bordered .fa {
+	color: #666;	
+}
+.promo-table-green table.bordered .fa {
+	color: #81af45;
+}
+.promo-table-blue table.bordered .fa {
+	color: #3e7ebe;
+}
+.promo-table-purple table.bordered .fa {
+	color: #885087;
+}
+.promo-table-teal table.bordered .fa {
+	color: #24bec5;
+}
+.promo-table-raspberry table.bordered .fa {
+	color: #c5246e;
+}
+
+.promo-table table.bordered small {
+  font-size: 11px;
+}
+
+@media screen and (max-width:1024px) {
+  .promo-table.table-responsive {
+    overflow: scroll;
+  }
+}
+
+/* Override these 4 styles for the specific column you want to feature/target */
+.promo-table table.bordered thead tr th:nth-child(3) {
+  border-left: 0;
+}
+
+.promo-table table.bordered thead tr th:nth-child(2n) h3 {
+  background: #e5e5e5;
+}
+
+.promo-table table.bordered tr th:nth-child(2n),
+.promo-table table.bordered tr td:nth-child(2n) {
+  background: #e5e5e5;
+}
+
+.promo-table table.bordered thead tr th:nth-child(3) h3 {
+  border-left: none;
+}

@@ -1,0 +1,167 @@
+/*:::::::::: RGH Overview Video ::::::::::*/
+.rgh-overview-video {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.rgh-overview-video video {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -10;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.rgh-overview-video h2 {
+    position: absolute;
+    bottom: 240px;
+}
+
+@media (max-width: 414px) {
+    .rgh-overview-video h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+
+@media (max-width: 375px) {
+    .rgh-overview-video h2 {
+        bottom: 110px;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+
+@media (max-height: 414px) and (max-width: 640px) and (orientation: landscape) {
+    .rgh-overview-video h2 {
+        font-size: 32px;
+        line-height: 38px;
+        top: 60px !important;
+    }
+}
+
+.rgh-overview-video {
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    /*filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=0);*/
+}
+
+@media (max-width: 768px) {
+    .rgh-overview-video video {
+        display: none;
+    }
+    .rgh-overview-video {
+        background: url('/content/dam/illumina-marketing/images/clinical/rgh/overview/rgh-video-poster-3-21-17.jpg') no-repeat top left / cover, -moz-linear-gradient(bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+        background: url('/content/dam/illumina-marketing/images/clinical/rgh/overview/rgh-video-poster-3-21-17.jpg') no-repeat top left / cover, -webkit-linear-gradient(bottom, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+        background: url('/content/dam/illumina-marketing/images/clinical/rgh/overview/rgh-video-poster-3-21-17.jpg') no-repeat top left / cover, linear-gradient(to top, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    .rgh-overview-video h2 {
+    	top: 80px;
+  	}
+}
+@media (max-width: 1023px) {
+    .rgh-overview-video {
+		margin-top: -43px;
+    }
+}
+/*:::::::::: RGH Overview Video ::::::::::*/
+
+
+
+
+/*:::::::::: RGH Hero Banners ::::::::::*/
+.hero-banner-rgh-pcf {
+    background: url("/content/dam/illumina-marketing/images/clinical/rgh/banners/rgh-banner-pcf.jpg") no-repeat right center / cover;
+    min-height: 460px;
+}
+@media (max-width: 991px) {
+    .hero-banner-rgh-pcf {
+        background-position: right -150px center;
+    }
+}
+@media (max-width: 767px) {
+    .hero-banner-rgh-pcf {
+        background-position: 0 0 !important;
+    }
+}
+.hero-banner-rgh-nipt {
+    background: url("/content/dam/illumina-marketing/images/clinical/rgh/banners/rgh-banner-nipt.jpg") no-repeat right center / cover;
+    min-height: 460px;
+}
+@media (max-width: 991px) {
+    .hero-banner-rgh-nipt {
+        background-position: right -270px center;
+    }
+}
+@media (max-width: 767px) {
+    .hero-banner-rgh-nipt {
+        background-position: 0 0 !important;
+    }
+}
+.hero-banner-rgh-gh {
+    background: url("/content/dam/illumina-marketing/images/clinical/rgh/banners/rgh-banner-gh.jpg") no-repeat right center / cover;
+    min-height: 460px;
+}
+@media (max-width: 991px) {
+    .hero-banner-rgh-gh {
+        background-position: right -220px center;
+    }
+}
+@media (max-width: 767px) {
+    .hero-banner-rgh-gh {
+        background-position: 0 0 !important;
+    }
+}
+.hero-banner-rgh-ptb {
+    background: url("/content/dam/illumina-marketing/images/clinical/rgh/banners/rgh-banner-ptb.jpg") no-repeat right center / cover;
+    min-height: 460px;
+}
+@media (max-width: 991px) {
+    .hero-banner-rgh-ptb {
+        background-position: right -230px center;
+    }
+}
+@media (max-width: 767px) {
+    .hero-banner-rgh-ptb {
+        background-position: 0 0 !important;
+    }
+}
+
+.hero-banner-rgh-gh h2 {
+    margin-top: 70px;
+}
+.hero-banner-rgh-ptb h2 {
+    margin-top: 20px;
+}
+.hero-banner-rgh-pcf h2 {
+    margin-top: 40px;
+}
+.hero-banner-rgh-nipt h2 {
+    margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .hero-banner-rgh-gh h2, .hero-banner-rgh-ptb h2, .hero-banner-rgh-pcf h2, .hero-banner-rgh-nipt h2 {
+        margin-top: 0;
+    }
+    .hero-banner-rgh-pcf h5, .hero-banner-rgh-pcf h5.small, .hero-banner-rgh-nipt h5, .hero-banner-rgh-nipt h5.small {
+        display: none;
+    }
+}
+
+@media (max-height: 414px) and (orientation: landscape) {
+    a.thumbnail.equal-height-box {
+        min-height: 395px;
+    }
+}
+
+
+/*:::::::::: RGH Hero Banners ::::::::::*/

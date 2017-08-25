@@ -1,0 +1,92 @@
+.workflow .well {
+	border-radius:0 0 4px 4px;
+	margin: 0 15px;
+}                        
+.workflow .well p:last-child {
+	margin-bottom:0;
+}   
+
+/* Publications - Added by Nelson */
+.publication-collapse {
+	margin-top:15px;
+}
+/* Publications - Added by Nelson */
+.collapse-spacing {
+	margin-top: 15px;
+}
+
+/* Default Accordion */
+.accordion-default .panel {
+    box-shadow: none;
+}
+.accordion-default .panel-default {
+    border: none;
+}
+.accordion-default .panel-default > .panel-heading {
+    background: none;
+    border: none;
+    color: inherit;
+}
+.accordion-default .panel-heading {
+    padding: 0;
+}
+.accordion-default .panel-title {
+    font-size: 14px;
+}
+.accordion-default .panel-title a {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.accordion-default .panel-title a:hover {
+    background: #bbb;
+    color: #fff;
+}
+.accordion-default .well {
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.accordion-default a:focus {
+    color: #666;
+}
+
+.col-split-gutter-spacing .accordion-default {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+.col-split-gutter-spacing .accordion-default {
+    margin-bottom: 5px;
+}
+}
+
+/* Default Accordion */
+
+/*:::::::::: Show/Hide ::::::::::*/
+.show-hide {
+	border-bottom: 1px solid #eee;
+}
+.show-hide:last-child {
+	border-bottom: none;
+}
+.show-hide-link-row h5 {
+	margin: 0;
+}
+	.show-hide-link-row h5 a {
+    	display: block;
+    	padding: 30px 60px 30px 0;
+    	position: relative;
+	}
+		.show-hide-link-row h5 > a:after {
+		    content: '\f068';
+    		font-family: 'FontAwesome';
+    		line-height: 1.5;
+    		position: absolute;
+    		right: 0;
+    		top: 50%;
+    		transform: translateY(-50%);
+		}
+		.show-hide-link-row h5 > a.collapsed:after {
+			content:'\f067';
+		}
+/*:::::::::: Show/Hide ::::::::::*/

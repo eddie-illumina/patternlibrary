@@ -1,0 +1,276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/eddievalenzuela/Sites/test/dev-eddie-3.3.7/scss"
+	],
+	"file_history":
+	[
+		"/Users/eddievalenzuela/Sites/test/dev-eddie-3.3.7/scss/main.scss",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-marketing/clientlibs_informatics_v2/css/sticky-override-2016.js",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-marketing/clientlibs_informatics_v2/css/informatics.css",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-marketing/clientlibs_truseq/css/truseq.css",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-marketing/plugin_fullpage/css/fullpage.css",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-common/clientlibs_fonts/css/font-awesome.css",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-common/clientlibs_fonts/css/fast-fonts.css",
+		"/Users/eddievalenzuela/Sites/illumina-marketing-aem-styles/content/src/main/content/jcr_root/etc/designs/illumina-common/clientlibs_fonts/css/fonts.css",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie-3.3.7/scss/_bootstrap.scss",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/webpage-updates-c-eibu-product-basespacevariant-interpreter/Carousel.html",
+		"/Users/eddievalenzuela/Sites/_assets/github-workflow",
+		"/Users/eddievalenzuela/Sites/github-workflow/test.html",
+		"/Users/eddievalenzuela/.ssh/config",
+		"/Users/eddievalenzuela/.ssh/id_rsa",
+		"/Users/eddievalenzuela/.gitconfig",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie-3.3.7/index.html",
+		"/Users/eddievalenzuela/.bash_profile",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/Privacy Policy/corporate-privacy-policy.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/Privacy Policy/employee-privacy-policy.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/WebPage updates- C- EIBU- Product- BaseSpace Variant Interpreter/Carousel.html",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie-4.0/index.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/update-pricing-table-080817/update-pricing-table-080817-new.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/update-pricing-table-080817/update-pricing-table-080817.html",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie/index.html",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie/scss/main.scss",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/general-requests/AACR-Post-Event-Deliverable-080717/AACR-Post-Event-Deliverable-080717",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie/show-hide.html",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie/scss/test.scss",
+		"/Users/eddievalenzuela/Sites/targeting/README.md",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/Targeting/Batch 30/_snippets/targeting-batch30-source-code.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/Targeting/Batch 30/_snippets/old-public-featurettes-073117.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/Targeting/Batch 30/_snippets/old-customer-banners-073117.html",
+		"/Users/eddievalenzuela/Box Sync/global-marketing-resources/project-documents/valenzuela-eddie/Projects/Targeting/Batch 30/_snippets/old-customer-featurettes-073117.html",
+		"/Users/eddievalenzuela/Sites/test/dev-eddie/scss/bootstrap/_variables.scss",
+		"/Users/eddievalenzuela/Downloads/targeting-batch26-source-code.html",
+		"/Users/eddievalenzuela/Downloads/targeting-batch28-source-code.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"batch30",
+			"0817",
+			"beta",
+			"  ",
+			"beta",
+			"h5",
+			"h4",
+			"h5",
+			"IdentifyingBiomarkers",
+			"purple",
+			"KeepingPaceImmunoOnc",
+			"$font-family-base",
+			"oncology"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "patter-library-playground.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

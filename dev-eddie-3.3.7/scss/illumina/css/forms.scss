@@ -1,0 +1,185 @@
+/* Kit Page Forms */
+.kit-form {
+	max-width:300px;
+    margin-top:25px;
+}
+.kit-form select {
+	margin-bottom:15px;
+}
+.kit-form input[type=text] {
+	display: inline-block;
+	width: 50px;
+}
+/* Kit Page Forms */
+
+
+/*:::::::::: Marketo Forms ::::::::::*/
+.marketo-form h5 {
+    margin-bottom: 25px;
+}
+@media (max-width: 1200px) {
+	.remove-form {
+		display: none;
+	}
+}
+/*:::::::::: Marketo Forms ::::::::::*/
+
+
+
+/*:::::::::: Marketo Sticky Nav Form ::::::::::*/
+.marketo-sticky-nav {
+    min-height: 0;
+    display: none;
+}
+
+.marketo-sticky-nav-btn {
+    border-radius: 0 !important;
+    padding: 10px 0;
+}
+
+.marketo-sticky-nav-btn:active, .marketo-sticky-nav-btn:focus {
+    outline: none;
+}
+
+.marketo-sticky-nav-btn h5 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.marketo-sticky-nav-btn h5:after {
+    font-family: FontAwesome;
+    position: absolute;
+    padding-left: 10px;
+}
+.marketo-sticky-nav-btn.angle-down h5:after {
+    content: "\f107";
+}
+.marketo-sticky-nav-btn.angle-up h5:after {
+    content: "\f106";
+}
+
+@media (max-width: 320px) {
+    .marketo-sticky-nav-btn h5 {
+        font-size: 16px;
+    }
+}
+.marketo-sticky-nav-form h5 {
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .marketo-sticky-nav {
+        position: relative;
+    }
+}
+/*:::::::::: Marketo Sticky Nav Form ::::::::::*/
+
+
+
+
+/*:::::::::: Marketo Thumbnail Form ::::::::::*/
+.thumbnail-grid-form-flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+}
+.thumbnail-grid-form-flex > [class*="col-"] {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+}
+.thumbnail-grid-form-flex .parsys, .thumbnail-grid-form-flex .text, .thumbnail-grid-form-flex .modalMarketoForm {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+}
+.thumbnail-grid-form-flex .thumbnail {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    /*flex: 1 0 auto;*/
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+}
+.thumbnail-grid-form-flex .thumbnail .form-cancer {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    -ms-flex-flex: 1 0 auto;
+}
+
+@media (max-width: 991px) {
+
+.thumbnail-grid-form-flex {
+    display: block;
+}
+.thumbnail-grid-form-flex > [class*="col-"], .thumbnail-grid-form-flex .parsys, .thumbnail-grid-form-flex .text, .thumbnail-grid-form-flex .modalMarketoForm {
+    display: block;
+}
+
+}
+
+/*IE CSS Only*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+.thumbnail-grid-form-flex img {
+    height: auto;
+}
+.thumbnail-grid-form-flex .thumbnail {
+    display: block;
+    flex: 1 0 auto;
+    -ms-flex-flex: 1 0 auto;
+}
+.thumbnail-grid-form-flex .thumbnail .form-cancer {
+    height: 100%;
+}
+.thumbnail-grid-form-flex > [class*="col-"] div {
+    width: 100%;
+}
+
+}
+/*:::::::::: Marketo Thumbnail Form ::::::::::*/
+
+
+
+/* Grid Form */
+.thumbnail-grid-form-flex .form-cancer {
+    padding: 20px;
+    background: rgba(124, 168, 212, 0.2) url("/content/dam/illumina-marketing/images/applications/cancer/v2/oncology-web-graphic-form-docs.png") no-repeat;
+    background-size: 95%;
+    background-position: 105px 75px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+.thumbnail-grid-form-flex .form-cancer {
+    background: rgba(124, 168, 212, 0.2) url("/content/dam/illumina-marketing/images/applications/cancer/v2/oncology-web-graphic-form-docs.png") no-repeat;
+    background-size: 100%;
+    background-position: 85px 95px;
+}
+}
+
+@media (max-width: 991px) {
+.thumbnail-grid-form-flex .form-cancer {
+    background: rgba(124, 168, 212, 0.2) url("/content/dam/illumina-marketing/images/applications/cancer/v2/oncology-web-graphic-form-docs.png") no-repeat;
+    background-size: 53%;
+    background-position: 380px -55px;
+}
+}
+
+@media (max-width: 768px) {
+.thumbnail-grid-form-flex .form-cancer {
+    background: rgba(124, 168, 212, 0.2) url("/content/dam/illumina-marketing/images/applications/cancer/v2/oncology-web-graphic-form-docs.png") no-repeat;
+    background-size: 43%;
+    background-position: right 15px;
+}
+}
+
+.grid-form-6 h5 {
+	margin-bottom: 20px;
+}
+.grid-form-6 .modal-dialog iframe {
+	margin-bottom: 20px;
+}
+/* Grid Form */

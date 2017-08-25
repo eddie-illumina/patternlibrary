@@ -1,0 +1,85 @@
+.global-nav {
+	padding:0 30px;
+}
+
+.global-nav-menu,
+.global-nav .twelve.column,
+.global-footer .row {
+    float:none;
+	max-width:1365px;
+	margin:0 auto;
+}
+
+.global-nav .row{
+    margin:0;
+}
+
+.global-nav .twelve.column,
+.global-footer .row {
+    max-width:1305px;
+}
+
+.global-nav .column,
+.global-nav-menu .column,
+.global-footer .column {
+    float:left;
+}
+
+.global-nav .three.column,
+.global-nav-menu .three.column {
+	width:25%;
+}
+
+.global-nav-menu .four.column,
+.global-footer .four.column {
+	width:33.3333%;
+}    
+
+.global-nav-menu .five.column {
+	width:41.66667%;
+}  
+
+.global-nav-menu .six.column {
+	width:50%;
+}  
+
+.global-nav-menu .seven.column {
+	width:58.3333%;
+}  
+
+.global-footer .eight.column,
+.global-nav-menu .eight.column {
+	width:66.6664%;
+}
+
+.global-nav .nine.column,
+.global-nav-menu .nine.column {
+	width:75%;
+}
+
+.global-nav-menu .twelve.column {
+	float:none;
+}
+
+.global-nav-lvl-0 li {
+	padding:13px;
+}
+
+.column.global-search {
+	padding-left:45px;
+	padding-top:12px;
+}
+
+.column.header-right {
+	padding-top:34px;
+}
+
+table.gsc-search-box td {
+	vertical-align:top;
+	padding-top:2px !important;
+}
+
+.cse .gsc-search-button input.gsc-search-button-v2, 
+input.gsc-search-button-v2 {
+	margin-top:0;
+}

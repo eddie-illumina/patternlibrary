@@ -1,0 +1,710 @@
+/*:::::::::: Recent Publications Component ::::::::::*/
+.recent-pubs {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.recent-pubs .row {
+    margin: 0;
+}
+.recent-pubs .col-md-4:first-child {
+    border: medium none;
+}
+.recent-pubs .row + .row {
+    display: table;
+}
+.recent-pubs .col-md-4 {
+    border-left: 1px solid #bbb;
+    display: table-cell;
+    float: none;
+    padding: 15px;
+    width: 33%;
+}
+.recent-pubs .list-unstyled {
+    margin-bottom: 0;
+}
+.recent-pubs .list-unstyled > li:last-child {
+    margin-top: 10px;
+}
+
+.recent-pubs-header .col-md-12 {
+    padding: 0;
+}
+.recent-pubs-header .page-header {
+    margin: 0;
+    padding: 15px;
+}
+.recent-pubs-header .page-header > h5 {
+    margin: 0;
+}
+.recent-pubs .col-md-4 p span:before {
+    content: ", ";
+}
+
+
+
+@media (max-width:768px) {
+.recent-pubs .col-md-4 {
+	float: left;
+	border: none;
+	width: 100%;
+}
+}
+/*:::::::::: Recent Publications Component ::::::::::*/
+
+
+
+
+/*:::::::::: Promo Row ::::::::::*/
+.promo-row .content-spacing {
+    padding: 60px;
+}
+
+@media (max-width: 767px) {
+    .promo-row .promo-row-img {
+        padding: 0 !important;
+    }
+    .promo-row .content-spacing {
+        text-align: center;
+    }
+    .promo-row .content-spacing {
+        padding: 30px;
+    }
+}
+/*:::::::::: Promo Row ::::::::::*/
+
+
+
+
+/*:::::::::: Promo Row Process ::::::::::*/
+.promo-row-process img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width:767px) {
+	.promo-row-process p { 
+		text-align: center; 
+	}
+}
+/*:::::::::: Promo Row Process ::::::::::*/
+
+
+
+
+/*:::::::::: Breakout Promo Row ::::::::::*/
+.promo-breakout-content {
+	padding: 30px 0;
+}
+@media (min-width: 768px) {
+	.promo-breakout-content {
+		padding: 60px 0;
+	}
+}
+@media (min-width: 992px) {
+	.promo-breakout-content {
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		-webkit-align-self: center;
+		align-self: center;
+		padding: 90px 0 30px 30px;
+		width: 60%;
+	}
+	.promo-breakout-content > :last-child {
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 1200px) {
+	.promo-breakout-content {
+		margin-left: 5.33333333%;
+		width: 61.33333333%;
+	}
+}
+
+.promo-breakout-image {
+	display: none;
+}
+
+@media (min-width: 992px) {
+	.promo-breakout-image {
+		display: block;
+		padding-right: 15px;
+		width: 40%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.promo-breakout-image {
+		width: 33.33333333%;
+	}
+}
+
+@media (min-width: 992px) {
+	.promo-breakout {
+		box-shadow: inset 0 60px 0 0 #fff;
+	}
+}
+/*:::::::::: End Breakout Promo Row ::::::::::*/
+
+
+
+
+/*:::::::::: Bullet Box ::::::::::*/
+.bullet-box {
+    padding: 20px 25px;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    /*border: 1px solid #ddd;*/
+    margin: 10px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    background: #eee;
+    border-bottom: 5px solid #24BEC5;
+}
+
+.bullet-box p {
+    font-family: "HelveticaNeueW01-65Medi";
+    font-weight: normal;
+    margin: 0;
+}
+/*:::::::::: Bullet Box ::::::::::*/
+
+
+
+/*:::::::::: Quote Box ::::::::::*/
+.quote-box .quote, .quote-box .author {
+    display: block;
+    text-align: center;
+    font-family: "HelveticaNeueW01-Thin";
+    letter-spacing: .5px;
+}
+
+.quote-box .quote {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.quote-box .author {
+    font-size: 16px;
+}
+/*:::::::::: Quote Box ::::::::::*/
+
+
+
+/*:::::::::: Products Services Listing ::::::::::*/
+.product-services-listing h4 {
+    margin-bottom: 20px;
+}
+
+.product-services-listing h6 {
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .product-services-listing h6 {
+        margin-top: 0;
+    }
+}
+.product-services-listing .col-md-6 h6:first-child {
+    margin-top: 0;
+}
+/*:::::::::: Products Services Listing ::::::::::*/
+
+
+
+
+/*:::::::::: FAQ Panel ::::::::::*/
+.faq-panel h4.panel-title:hover {
+    color: #328ed1;
+}
+
+.faq-panel .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #3e7ebe;
+    line-height: 22px;
+}
+/*:::::::::: FAQ Panel ::::::::::*/
+
+
+
+
+/*:::::::::: Drop Down Filters ::::::::::*/
+.resources-filter .resources-filter-dropdown .form-group {
+    width: 25%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.resources-filter .resources-filter-dropdown .form-group:last-child {
+    padding: 0 0 10px 0;
+}
+
+.resources-filter {
+    margin-bottom: 60px;
+}
+/*:::::::::: Drop Down Filters ::::::::::*/
+
+
+
+
+/*:::::::::: Automation Methods Controller ::::::::::*/
+.automation-methods {
+    display:none;
+}
+
+.author-mode .automation-methods {
+    display:block;
+}    
+
+.automation-methods-controller h6 img {
+    cursor:pointer;
+    transition:box-shadow 0.5s ease;
+    border-radius: 5px;
+}
+
+.automation-methods-controller h6 img:hover {
+    box-shadow:rgba(0,0,0,0.2) 0 0 5px;
+    transition:box-shadow 0.5s ease;    
+}    
+
+.automation-methods-controller h6 {
+    margin-bottom: 15px;
+}
+
+#am .modal-footer p {
+    text-align:left;
+}
+
+#am .modal-footer p a {
+    display:inline-block;
+	margin-right:10px;            
+}
+/*:::::::::: Automation Methods Controller ::::::::::*/
+
+
+/*:::::::::: Promo Workflow ::::::::::*/
+.promo-workflow-section {
+	background: rgba(50,131,209,.8);
+}
+.promo-workflow-more .btn-default {
+	text-align: center;
+	color: #c2defb;
+	border-color: #c2defb;
+	background: none;
+}
+.promo-workflow-more .col-md-6:first-child {
+	text-align: right;
+}
+.promo-workflow a {
+	color: #c2defb;
+}
+.promo-workflow a:hover {
+	color: #fff;
+}
+.promo-workflow a:focus {
+	color: #c2defb;
+}
+.promo-workflow p {
+	color: #fff;
+}
+.promo-page-header {
+	margin: 0 0 40px 0;
+	text-align: center;
+}
+.promo-page-sub-header {
+	margin: 25px 0 20px 0;
+	text-align: center;
+}
+.promo-workflow h5, .promo-page-header h4, .promo-page-sub-header h5 {
+	color: #fff;
+}
+.icon-chevron-right:after {
+	content: "\f054";
+	margin-left: 6px;
+}
+.promo-workflow-section .icon-fa:after {
+	font-size: 12px;
+}
+@media (max-width:992px) {
+	.promo-workflow .col-md-3 img {
+		margin: 10px auto 20px auto;
+	}
+	.promo-workflow .col-md-4:first-child .col-md-3 img {
+		margin: 10px auto 20px auto;
+		position: relative;
+		left: 20px;
+	}
+	.promo-workflow-section .btn:first-child {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width:768px) {
+	.promo-workflow .col-md-9 h5 {
+		margin: 0 0 25px 0;
+		text-align: center;
+	}
+	.promo-workflow-section .btn {
+		display: block;
+	}
+}
+/*:::::::::: Promo Workflow ::::::::::*/
+
+
+
+
+
+/*:::::::::: Recommended Workflow ::::::::::*/
+/*:::::::::: Added by Adam Prince | May 4, 2016 ::::::::::*/
+
+/* Theme Colors */
+.recommended-workflow {
+  background-color: #fff;
+}
+.recommended-workflow.recommended-workflow-purple .recommended-workflow-footer h5 {
+  color: #885087;
+}
+.recommended-workflow.recommended-workflow-purple .recommended-workflow-step-indicator:before {
+  background-color: #885087;
+}
+.recommended-workflow.recommended-workflow-purple .recommended-workflow-icon {
+  background-color: #885087;
+}
+.recommended-workflow.recommended-workflow-blue .recommended-workflow-footer h5 {
+  color: #3e7ebe;
+}
+.recommended-workflow.recommended-workflow-blue .recommended-workflow-step-indicator:before {
+  background-color: #3e7ebe;
+}
+.recommended-workflow.recommended-workflow-blue .recommended-workflow-icon {
+  background-color: #3e7ebe;
+}
+.recommended-workflow.recommended-workflow-green .recommended-workflow-footer h5 {
+  color: #81af45;
+}
+.recommended-workflow.recommended-workflow-green .recommended-workflow-step-indicator:before {
+  background-color: #81af45;
+}
+.recommended-workflow.recommended-workflow-green .recommended-workflow-icon {
+  background-color: #81af45;
+}
+.recommended-workflow.recommended-workflow-raspberry .recommended-workflow-footer h5 {
+  color: #c5246e;
+}
+.recommended-workflow.recommended-workflow-raspberry .recommended-workflow-step-indicator:before {
+  background-color: #c5246e;
+}
+.recommended-workflow.recommended-workflow-raspberry .recommended-workflow-icon {
+  background-color: #c5246e;
+}
+.recommended-workflow.recommended-workflow-teal .recommended-workflow-footer h5 {
+  color: #24bec5;
+}
+.recommended-workflow.recommended-workflow-teal .recommended-workflow-step-indicator:before {
+  background-color: #24bec5;
+}
+.recommended-workflow.recommended-workflow-teal .recommended-workflow-icon {
+  background-color: #24bec5;
+}
+
+@media (min-width: 768px) {
+  .recommended-workflow-heading {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .recommended-workflow .recommended-workflow-body {
+    text-align: center;
+  }
+}
+
+.recommended-workflow-step-indicator {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+  position: relative;
+}
+.recommended-workflow-step-indicator:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 33.333%;
+}
+.recommended-workflow-fourstep .recommended-workflow-step-indicator:before {
+	width: 25%;
+}
+
+.recommended-workflow-icon {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  border-radius: 50%;
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 15px auto;
+}
+
+.recommended-workflow-item {
+  padding-top: 20px;
+}
+
+
+.recommended-workflow-item-design .recommended-workflow-icon {
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-design-icon-white.png);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-design-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-design-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.recommended-workflow-fourstep .recommended-workflow-item-prep .recommended-workflow-step-indicator:before {
+	left: 25%;
+}
+.recommended-workflow-item-prep .recommended-workflow-icon {
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.png);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.recommended-workflow-item-sequencing .recommended-workflow-step-indicator:before {
+  left: 33.333%;
+}
+.recommended-workflow-fourstep .recommended-workflow-item-sequencing .recommended-workflow-step-indicator:before {
+	left: 50%;
+}
+.recommended-workflow-item-sequencing .recommended-workflow-icon {
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.png);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.recommended-workflow-item-analysis .recommended-workflow-step-indicator:before {
+  left: 66.666%;
+}
+.recommended-workflow-fourstep .recommended-workflow-item-analysis .recommended-workflow-step-indicator:before {
+	left: 75%;
+}
+.recommended-workflow-item-analysis .recommended-workflow-icon {
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-analysis-icon-white.png);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-analysis-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+  background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-analysis-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.recommended-workflow-footer {
+  text-align: center;
+}
+.recommended-workflow-footer .btn {
+  display: block;
+  margin: 15px auto;
+}
+@media (min-width: 768px) {
+  .recommended-workflow-footer .btn {
+    display: inline-block;
+    margin: 15px;
+  }
+}
+/*:::::::::: Recommended Workflow ::::::::::*/
+
+
+/*:::::::::: Recommended Workflow Updates ::::::::::*/
+.recommended-workflow-3-steps .recommended-workflow-step-indicator:before {
+    width: 33.333%;
+}
+
+.recommended-workflow-3-steps .recommended-workflow-step-two .recommended-workflow-step-indicator:before {
+    left: 33.333%;
+}
+
+.recommended-workflow-3-steps .recommended-workflow-step-three .recommended-workflow-step-indicator:before {
+	left: 66.666%;
+}
+
+.recommended-workflow-4-steps .recommended-workflow-step-indicator:before {
+    width: 25%;
+}
+
+.recommended-workflow-4-steps .recommended-workflow-step-two .recommended-workflow-step-indicator:before {
+    left: 25%;
+}
+
+.recommended-workflow-4-steps .recommended-workflow-step-three .recommended-workflow-step-indicator:before {
+	left: 50%;
+}
+
+.recommended-workflow-4-steps .recommended-workflow-step-four .recommended-workflow-step-indicator:before {
+    left: 75%;
+}
+
+.recommended-workflow-5-steps .recommended-workflow-step-indicator:before {
+    width: 20%;
+}
+
+.recommended-workflow-5-steps .recommended-workflow-step-two .recommended-workflow-step-indicator:before {
+    left: 20%;
+}
+
+.recommended-workflow-5-steps .recommended-workflow-step-three .recommended-workflow-step-indicator:before {
+    left: 40%;
+}
+
+.recommended-workflow-5-steps .recommended-workflow-step-four .recommended-workflow-step-indicator:before {
+    left: 60%;
+}
+
+.recommended-workflow-5-steps .recommended-workflow-step-five .recommended-workflow-step-indicator:before {
+    left: 80%;
+}
+
+.icon-test-tube {
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-prep-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-system {
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/support-workflow-sequencing-icon-white.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-system-novaseq {
+    background-image: url(/content/dam/illumina-marketing/images/icons/novaseq-icon.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/novaseq-icon.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/novaseq-icon.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-cloud-computing {
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.svg);
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-monitor {
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/monitor-design-icon-workflow-white.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-manage {
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-manage.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-manage.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-manage.svg), linear-gradient(transparent, transparent);
+}
+
+.icon-sequence {
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-sequence.png);
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-sequence.svg), -webkit-linear-gradient(transparent, transparent);
+    background-image: url(/content/dam/illumina-marketing/images/icons/icon-sequence.svg), linear-gradient(transparent, transparent);
+}
+
+
+/* Bootstrap grid tweak to get 5 column workflow */
+.col-md-2-even {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	position: relative;
+}
+@media (min-width: 992px) {
+	.col-md-2-even{
+	    float: left;
+	    width: 20%;
+	}
+}
+/*:::::::::: End Recommended Workflow Updates ::::::::::*/
+
+
+/*:::::::::: Callout Widget ::::::::::*/
+/*:::::::::: Added by Frank Shanley | August 23, 2016 ::::::::::*/
+
+.callout-widget {
+	padding: 20px;
+    margin: 0px 0px 0px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.15);
+    z-index: 9;
+}
+/*:::::::::: Callout Widget ::::::::::*/
+
+/*:::::::::: Impact Statement Promo Row ::::::::::*/
+/*:::::::::: Added by Adam Prince | February 20, 2017 ::::::::::*/
+.impact-statement {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.impact-statement-icon {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .impact-statement-three-up {
+    text-align: left;
+  }
+}
+
+.impact-statement-teal .impact-statement-icon {
+  color: #24bec5;
+}
+
+.impact-statement-raspberry .impact-statement-icon {
+  color: #c5246E;
+}
+
+.impact-statement-purple .impact-statement-icon {
+  color: #885087;
+}
+
+.impact-statement-green .impact-statement-icon {
+  color: #81af45;
+}
+
+.impact-statement-teal.impact-statement-no-icons .lead {
+  color: #24bec5;
+}
+
+.impact-statement-raspberry.impact-statement-no-icons .lead {
+  color: #c5246E;
+}
+
+.impact-statement-purple.impact-statement-no-icons .lead {
+  color: #885087;
+}
+
+.impact-statement-green.impact-statement-no-icons .lead {
+  color: #81af45;
+}
+/*:::::::::: Impact Statement Promo Row ::::::::::*/
+
+
+
+
+/*:::::::::: Literature List ::::::::::*/
+.literature-list {
+	margin-bottom: 0;
+}
+
+.literature-list > li {
+	margin-bottom: 15px;
+}
+/*:::::::::: End Literature List ::::::::::*/
+
+/*:::::::::: Social Links ::::::::::*/
+.twitter-tweet-button, .facebook-share-button, .IN-widget{
+	vertical-align: middle !important;
+}
+
+.social-blocks{
+	display: inline-block;
+	margin-right: 7px;
+}
+/*:::::::::: End Social Links ::::::::::*/
