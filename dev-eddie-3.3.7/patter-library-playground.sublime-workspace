@@ -20,9 +20,28 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 12362,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "git-cheatsheet.mdown",
+			"settings":
+			{
+				"buffer_size": 92,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/custom.scss",
+			"settings":
+			{
+				"buffer_size": 160,
 				"line_ending": "Unix"
 			}
 		}
@@ -146,15 +165,46 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 12362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12186,
+								12186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3801.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "git-cheatsheet.mdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
 						"regions":
 						{
 						},
@@ -167,7 +217,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -179,8 +229,37 @@
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "scss/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -212,7 +291,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.563740723617,
 			1.0
 		],
 		"rows":
@@ -268,7 +347,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 230.0,
+	"side_bar_width": 158.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

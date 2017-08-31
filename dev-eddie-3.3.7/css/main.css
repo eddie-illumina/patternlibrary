@@ -5814,12 +5814,14 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-.social-blocks {
+.icon-cta-new:after {
+  content: '';
   display: inline-block;
-  margin-right: 7px; }
-
-.twitter-tweet-button, .facebook-share-button, .IN-widget {
-  vertical-align: middle !important; }
+  background: url("/svg/icon-cta-new.svg") no-repeat;
+  background-size: 100% 100%;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px; }
 
 /*:::::::::: Base Style and Sticky Nav ::::::::::*/
 .hero-banner-container, .hero-banner-container-no-sticky-nav {
